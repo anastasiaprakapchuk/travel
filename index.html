@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="preload" href="images/home.jpg" as="image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div id="page">
+      <div class="page-wrapper">
+        <div class="page-slide">
+          <header>
+            <div class="container">
+              <div class="menu">
+                <nav>
+                  <ul>
+                    <li>
+                      <a class="menu_link" href="">Home</a>
+                    </li>
+                    <li>
+                      <a class="menu_link" href="">Create tour</a>
+                    </li>
+                    <li>
+                      <a class="menu_link" href="">Guides</a>
+                    </li>
+                    <li>
+                      <a class="menu_link" href="">About</a>
+                    </li>
+                    <li>
+                      <a class="menu_link" href="">Work</a>
+                    </li>
+                    <li>
+                      <a class="menu_link" href="">Reviews</a>
+                    </li>
+                    <li>
+                      <a class="menu_link" href="">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- бар для мобильной версии -->
+                <svg
+                  class="bars"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M492,76H20C8.954,76,0,84.954,0,96s8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,76,492,76z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        d="M492,396H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20
+                        C512,404.954,503.046,396,492,396z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+
+                <svg
+                  class="backArrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512 512"
+                  style="enable-background: new 0 0 512 512"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M506.134,241.843c-0.006-0.006-0.011-0.013-0.018-0.019l-104.504-104c-7.829-7.791-20.492-7.762-28.285,0.068
+                    c-7.792,7.829-7.762,20.492,0.067,28.284L443.558,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h423.557
+                    l-70.162,69.824c-7.829,7.792-7.859,20.455-0.067,28.284c7.793,7.831,20.457,7.858,28.285,0.068l104.504-104
+                    c0.006-0.006,0.011-0.013,0.018-0.019C513.968,262.339,513.943,249.635,506.134,241.843z"
+                  />
+                </svg>
+                <button class="menu_button contact_button">Contact Us</button>
+              </div>
+            </div>
+          </header>
+
+          <section id="home">
+            <div class="container">
+              <div
+                class="flex_container_between"
+                data-swiper-parallax-y="-100%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1000"
+              >
+                <div class="home_text">
+                  <h1 class="animate__animated animate__fadeInLeft">
+                    Travel to
+                  </h1>
+                  <h1 class="animate__animated animate__fadeInRight">
+                    your dream
+                  </h1>
+                  <h1 class="animate__animated animate__fadeInLeft">
+                    destination
+                  </h1>
+                  <p
+                    class="animate__animated animate__fadeInRight animate__slow"
+                  >
+                    We will create for you the trip of your dreams. You just
+                    need to choose a direction and write to us. And your dream
+                    will become much closer.
+                  </p>
+                  <button
+                    class="home_button contact_button animate__animated animate__fadeInUp animate__slow"
+                  >
+                    Contact Us
+                  </button>
+                </div>
+                <div
+                  class="home_foto animate__animated animate__fadeInUp animate__slow"
+                >
+                  <img src="images/home.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page-slide">
+          <section id="memory">
+            <div class="container">
+              <div
+                class="flex_container_center"
+                data-swiper-parallax-y="-200%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1000"
+              >
+                <div class="memory_text">
+                  <h2>Create your travel</h2>
+                  <h2>with our help</h2>
+                  <p>
+                    Can't find tours to the place where you have long dreamed of
+                    visiting? Write to us, we will create an individual tour for
+                    you.
+                  </p>
+                  <button class="memory_button contact_button">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page-slide">
+          <section id="guides">
+            <div class="container">
+              <div
+                class="flex_container_between swiper_guides"
+                data-swiper-parallax-y="-200%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1000"
+              >
+                <div class="guides_slider swiper-wrapper">
+                  <div class="guides_item swiper-slide">
+                    <div class="guides_item_foto">
+                      <img src="images/country_one.jpg" alt="" />
+                    </div>
+
+                    <h3>Turkay</h3>
+                    <p>
+                      Turkey is a country of living culture, a country of
+                      ancient civilizations. It surprisingly combines the
+                      relaxing atmosphere of a beach holiday, lively nightlife,
+                      friendliness and hospitality of the local population,
+                      ancient history and developed resort infrastructure.
+                    </p>
+                  </div>
+
+                  <div class="guides_item swiper-slide">
+                    <div class="guides_item_foto">
+                      <img src="images/country_two.jpg" alt="" />
+                    </div>
+
+                    <h3>Himalayas</h3>
+                    <p>
+                      The Himalayas are considered to be the highest and most
+                      mysterious mountains of the planet Earth. The natural
+                      conditions of the Himalayan mountains cannot be called
+                      soft and stable. The weather in this area is prone to
+                      frequent changes.
+                    </p>
+                  </div>
+
+                  <div class="guides_item swiper-slide">
+                    <div class="guides_item_foto">
+                      <img src="images/country_tree.jpg" alt="" />
+                    </div>
+
+                    <h3>Altai</h3>
+                    <p>
+                      The Republic of Altai is located in the very center of
+                      Asia at the junction of the Siberian taiga, the Kazakh
+                      steppes and the semi-deserts of Mongolia. This is a
+                      mountainous country with an extremely picturesque
+                      landscape in the center of Eurasia.
+                    </p>
+                  </div>
+
+                  <div class="guides_item swiper-slide">
+                    <div class="guides_item_foto">
+                      <img src="images/country_four.jpg" alt="" />
+                    </div>
+
+                    <h3>Tenerife</h3>
+                    <p>
+                      The island is replete with all kinds of beaches: 
+                      here you will be conquered by both wild beaches 
+                      with amazing landscapes and pristine nature, as 
+                      well as comfortable and equipped beaches, both 
+                      sandy and pebble.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination-guides"></div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page-slide">
+          <section id="choose">
+            <div class="container">
+              <div class="flex_container_between">
+                <div
+                  class="choose_text"
+                  data-swiper-parallax-y="-200%"
+                  data-swiper-parallax-opacity="0"
+                  data-swiper-parallax-duration="1000"
+                >
+                  <h2>Choose anywhere <br />you’d like to be</h2>
+                  <p>
+                    Choose where you want to visit and tell us about it. Share
+                    your desires and we will make your own turnkey tour
+                  </p>
+                </div>
+                <div
+                  class="choose_foto"
+                  data-swiper-parallax-x="200%"
+                  data-swiper-parallax-opacity="0"
+                  data-swiper-parallax-duration="1500"
+                >
+                  <img src="images/choose.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page-slide">
+          <section id="points">
+            <div class="container">
+              <h1
+                data-swiper-parallax-y="200%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1000"
+              >
+                How we are working
+              </h1>
+              <div class="flex_container_between">
+                <div
+                  class="points_item"
+                  data-swiper-parallax-y="-200%"
+                  data-swiper-parallax-opacity="0"
+                  data-swiper-parallax-duration="1000"
+                >
+                  <div class="points_item_foto">
+                    <img src="images/note.png" alt="" />
+                  </div>
+                  <p>We make a list of your wishes</p>
+                </div>
+
+                <div
+                  class="points_item"
+                  data-swiper-parallax-y="200%"
+                  data-swiper-parallax-opacity="0"
+                  data-swiper-parallax-duration="1000"
+                >
+                  <div class="points_item_foto">
+                    <img src="images/search.png" alt="" />
+                  </div>
+                  <p>
+                    We are looking for all the necessary information about the
+                    future trip
+                  </p>
+                </div>
+
+                <div
+                  class="points_item"
+                  data-swiper-parallax-y="-200%"
+                  data-swiper-parallax-opacity="0"
+                  data-swiper-parallax-duration="1000"
+                >
+                  <div class="points_item_foto">
+                    <img src="images/calendar.png" alt="" />
+                  </div>
+                  <p>
+                    We make a plan for the upcoming trip. We buy tickets, book
+                    hotels
+                  </p>
+                </div>
+
+                <div
+                  class="points_item"
+                  data-swiper-parallax-y="200%"
+                  data-swiper-parallax-opacity="0"
+                  data-swiper-parallax-duration="1000"
+                >
+                  <div class="points_item_foto">
+                    <img src="images/plane.png" alt="" />
+                  </div>
+                  <p>We provide turnkey travel to you. You can hit the road!</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page-slide">
+          <section id="review">
+            <div class="container">
+              <h1
+                data-swiper-parallax-y="200%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1000"
+              >
+                What they say about us
+              </h1>
+              <div
+                class="swiper_review"
+                data-swiper-parallax-x="-100%"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-duration="1000"
+              >
+                <div class="flex_container_between swiper-wrapper">
+                  <div class="review_item swiper-slide">
+                    <div class="review_item_foto">
+                      <img src="images/katie.jpg" alt="" />
+                    </div>
+                    <h3>Katie</h3>
+                    <p>
+                      My dream has come true! I am incredibly grateful for this
+                      journey
+                    </p>
+                  </div>
+
+                  <div class="review_item swiper-slide">
+                    <div class="review_item_foto">
+                      <img src="images/dalila.jpg" alt="" />
+                    </div>
+                    <h3>Dalila</h3>
+                    <p>
+                      Thank you very much for making my old dream come true -
+                      the Himalayas
+                    </p>
+                  </div>
+
+                  <div class="review_item swiper-slide">
+                    <div class="review_item_foto">
+                      <img src="images/juan.jpg" alt="" />
+                    </div>
+                    <h3>Juan</h3>
+                    <p>
+                      The journey of a whole year inspired me. I could never
+                      make up my mind
+                    </p>
+                  </div>
+
+                  <div class="review_item swiper-slide">
+                    <div class="review_item_foto">
+                      <img src="images/yoge.jpg" alt="" />
+                    </div>
+                    <h3>Juan</h3>
+                    <p>
+                      It's just wonderful! Reality is better than expectations
+                    </p>
+                  </div>
+
+                  <div class="review_item swiper-slide">
+                    <div class="review_item_foto">
+                      <img src="images/andrea.jpg" alt="" />
+                    </div>
+                    <h3>Juan</h3>
+                    <p>
+                      It was the best trip of my life! I am very grateful to your team
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination-review"></div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page-slide">
+          <section id="contact">
+            <div class="container">
+              <h1>Contact us</h1>
+              <div class="flex_container_between">
+                <div class="contact_form" data-swiper-parallax-opacity="0">
+                  <form action="#">
+                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Last Name" />
+                    <input
+                      type="email"
+                      name=""
+                      id=""
+                      placeholder="Your email"
+                    />
+                    <textarea
+                      name=""
+                      id=""
+                      cols="20"
+                      rows="8"
+                      placeholder="Your message"
+                    ></textarea>
+                    <input type="submit" value="Send a message" />
+                  </form>
+                </div>
+                <div
+                  class="contact_foto"
+                  data-swiper-parallax-opacity="0"
+                  data-swiper-parallax-duration="2000"
+                >
+                  <img src="images/contact.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="page-slide">
+          <footer>
+            <div class="container">
+              <div class="flex_container_between">
+                <div class="footer_name">
+                  <h1>
+                    Let the dream<br />
+                    become the goal
+                  </h1>
+                </div>
+                <div class="footer_info">
+                  <div class="menu">
+                    <nav>
+                      <ul>
+                        <li>
+                          <a class="menu_link" href="">Home</a>
+                        </li>
+                        <li>
+                          <a class="menu_link" href="">Create tour</a>
+                        </li>
+                        <li>
+                          <a class="menu_link" href="">Guides</a>
+                        </li>
+                        <li>
+                          <a class="menu_link" href="">About</a>
+                        </li>
+                        <li>
+                          <a class="menu_link" href="">Work</a>
+                        </li>
+                        <li>
+                          <a class="menu_link" href="">Reviews</a>
+                        </li>
+                        <li>
+                          <a class="menu_link" href="">Contact</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rights">2022. Dream travel. All rights reserved</div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
